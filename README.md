@@ -26,77 +26,7 @@ Backend	Servlet, JDBC
 Database	MySQL
 Server	Apache Tomcat
 Tools	Eclipse, MySQL Workbench
-📁 Project Structure
-swift
-Copy
-Edit
-HireConnect/
-│── src/
-│   ├── main/java/com/admin/servlet/
-│   │   ├── AdminDeleteApplicationServlet.java
-│   │   ├── AdminDeleteJobServlet.java
-│   │   ├── AdminDeleteUserServlet.java
-│   ├── main/java/com/dao/
-│   │   ├── ApplicationDAO.java
-│   │   ├── DBConnection.java
-│   │   ├── JobDAO.java
-│   │   ├── UserDAO.java
-│   ├── main/java/com/entity/
-│   │   ├── Application.java
-│   │   ├── Interview.java
-│   │   ├── Job.java
-│   │   ├── Payment.java
-│   │   ├── Resume.java
-│   │   ├── User.java
-│   ├── main/java/com/servlet/
-│   │   ├── ApplicationServlet.java
-│   │   ├── ApplyJobServlet.java
-│   │   ├── CompanyReviewServlet.java
-│   │   ├── DeleteJobServlet.java
-│   │   ├── DownloadResumeServlet.java
-│   │   ├── EditJobServlet.java
-│   │   ├── InterviewServlet.java
-│   │   ├── JobAlertsServlet.java
-│   │   ├── LoginServlet.java
-│   │   ├── LogoutServlet.java
-│   │   ├── PostJobServlet.java
-│   │   ├── ProfileServlet.java
-│   │   ├── RegisterServlet.java
-│   │   ├── UpdateApplicationStatusServlet.java
-│   │   ├── ViewInterviewDetailsServlet.java
-│── webapp/
-│   ├── admin/
-│   │   ├── adminDashboard.jsp
-│   │   ├── manageApplications.jsp
-│   │   ├── manageJobs.jsp
-│   │   ├── manageUsers.jsp
-│   ├── jobseeker/
-│   │   ├── company_reviews.jsp
-│   │   ├── dashboard.jsp
-│   │   ├── jobAlerts.jsp
-│   │   ├── myApplications.jsp
-│   │   ├── profile.jsp
-│   │   ├── viewJobs.jsp
-│   ├── recruiter/
-│   │   ├── editJob.jsp
-│   │   ├── interviewDetails.jsp
-│   │   ├── postJob.jsp
-│   │   ├── scheduleInterview.jsp
-│   │   ├── viewApplications.jsp
-│   ├── WEB-INF/
-│   │   ├── index.jsp
-│   │   ├── login.jsp
-│   │   ├── register.jsp
-│── resources/
-│   ├── CSS/
-│   │   ├── style.css
-│   ├── images/
-│   │   ├── img1.svg
-│   │   ├── img2.png
-│── config/
-│   ├── web.xml
-│── pom.xml
-│── README.md
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 sh
